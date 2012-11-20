@@ -1,0 +1,14 @@
+<?xml version="1.0"?>  
+<project default="validate">
+
+  <target name="validate">
+    <apply executable="xmllint"> 
+      <arg line="--noout"/>
+      <arg line="--schema"/>
+      <arg line="mugl-editor.xsd"/>
+      <srcfile/> 
+      <fileset dir="testfiles" includes="**/*.xml"/> 
+    </apply> 
+  </target>
+
+</project>
