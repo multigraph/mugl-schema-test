@@ -5,7 +5,7 @@
     <apply executable="xmllint"> 
       <arg line="--noout"/>
       <arg line="--schema"/>
-      <arg line="mugl-editor.xsd"/>
+      <arg line="mugl-schema/mugl.xsd"/>
       <srcfile/> 
       <fileset dir="testfiles" includes="**/*.xml"/> 
     </apply> 
