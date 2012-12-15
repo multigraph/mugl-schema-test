@@ -34,7 +34,7 @@ d n Y" start="0" angle="0" anchor="0 1" spacing="1D 12H 6H 4H 2H 1H" />
   </verticalaxis>
 
   <verticalaxis id="wind_speed"
-		position="-68"
+		position="-68 0"
 		pregap="0"
 		postgap="0"
 		min="0"
@@ -45,7 +45,7 @@ d n Y" start="0" angle="0" anchor="0 1" spacing="1D 12H 6H 4H 2H 1H" />
   </verticalaxis>
 
   <verticalaxis id="surface_temp"
-		position="-120"
+		position="-120 0"
 		pregap="0"
 		postgap="0"
 		min="0"
@@ -56,7 +56,7 @@ d n Y" start="0" angle="0" anchor="0 1" spacing="1D 12H 6H 4H 2H 1H" />
   </verticalaxis>
 
   <verticalaxis id="temperature"
-		position="0"
+		position="0 0"
 		pregap="0"
 		postgap="0"
 		positionbase="right"
@@ -68,7 +68,7 @@ d n Y" start="0" angle="0" anchor="0 1" spacing="1D 12H 6H 4H 2H 1H" />
   </verticalaxis>
 
   <verticalaxis id="precipitation"
-		position="50"
+		position="50 0"
 		pregap="0"
 		postgap="0"
 		positionbase="right"

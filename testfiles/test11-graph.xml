@@ -10,7 +10,6 @@
 		  min="2008070400"
 		  max="2008070500">
     <title angle="0" position="0 -80">Date/Time</title>
-    <axiscontrols visible="true"/>
     <labels format="%d %n %H:00" start="0" angle="45" anchor="1 1"
 	    spacing="1D 12H 6H 4H 2H 1H" />
   </horizontalaxis>
@@ -23,7 +22,6 @@
 		type="number"
 		min="0"
 		max="23">
-	<axiscontrols visible="true"/>
     <title angle="90" anchor="0 1" position="30 0">Degrees F</title>
     <labels format="%.1f" start="0" spacing="50 20 10 5 2 1 0.1 0.01"/>
     <binding id="tempbinding" min="32" max="212"/>
@@ -35,7 +33,6 @@
 		type="number"
 		min="10"
 		max="20">
-		<axiscontrols visible="true"/>
     <title angle="90" anchor="0 -1" position="-40 0">Degrees C</title>
     <labels format="%.1f" start="0" spacing="50 20 10 5 2 1 0.1 0.01"/>
     <binding id="tempbinding" min="0" max="100"/>

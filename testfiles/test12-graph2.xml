@@ -2,7 +2,7 @@
 <mugl>
   <horizontalaxis id="x" min="0" max="10"/>
   <verticalaxis   id="y" min="-10" max="10">
-    <labels format="%1d" function="abs"/>
+    <labels format="%1d"/>
   </verticalaxis>
   <plot>
     <horizontalaxis ref="x">

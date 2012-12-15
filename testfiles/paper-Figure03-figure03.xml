@@ -49,6 +49,6 @@
       <variable id="xvari" column="0" type="datetime"/>
       <variable id="T" column="1"/>
     </variables>
-    <service location="http://localhost/ams2010paper/csvdata.php?file=figure03.csv&rest="/>
+    <service location="http://localhost/ams2010paper/csvdata.php?file=figure03.csv&amp;rest="/>
   </data>
 </mugl>
