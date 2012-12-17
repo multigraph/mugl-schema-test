@@ -9,6 +9,13 @@
       <srcfile/> 
       <fileset dir="testfiles" includes="**/*.xml"/> 
     </apply> 
+    <apply executable="xmllint"> 
+      <arg line="--noout"/>
+      <arg line="--schema"/>
+      <arg line="mugl-schema/mugl.xsd"/>
+      <srcfile/> 
+      <fileset dir="js-multigraph/spec/mugl" includes="**/*.xml"/> 
+    </apply> 
   </target>
 
 </project>

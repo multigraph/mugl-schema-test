@@ -1,3 +1,6 @@
 [submodule "mugl-schema"]
 	path = mugl-schema
 	url = https://github.com/multigraph/mugl-schema.git
+[submodule "js-multigraph"]
+	path = js-multigraph
+	url = https://github.com/multigraph/js-multigraph.git

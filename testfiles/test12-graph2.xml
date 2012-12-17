@@ -9,7 +9,7 @@
       <variable ref="x" />
     </horizontalaxis>
     <verticalaxis ref="y">
-      <variable ref="x" factor="-1"/>
+      <variable ref="x"/>
     </verticalaxis>
     <renderer type="line">
     </renderer>
